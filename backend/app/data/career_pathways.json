@@ -1,0 +1,237 @@
+{
+  "pathways": [
+    {
+      "name": "Frontend Developer",
+      "description": "Build user interfaces and web applications",
+      "roadmap_url": "https://roadmap.sh/frontend",
+      "required_skills": [
+        "html", "css", "javascript", "react", "vue", "angular",
+        "responsive design", "git", "web design"
+      ],
+      "optional_skills": [
+        "typescript", "webpack", "sass", "tailwind", "next.js",
+        "testing", "accessibility", "seo"
+      ],
+      "weight_categories": {
+        "frontend": 1.0,
+        "general": 0.3
+      }
+    },
+    {
+      "name": "Backend Developer",
+      "description": "Build server-side applications and APIs",
+      "roadmap_url": "https://roadmap.sh/backend",
+      "required_skills": [
+        "python", "java", "node.js", "rest api", "sql",
+        "postgresql", "mysql", "git", "linux"
+      ],
+      "optional_skills": [
+        "docker", "redis", "graphql", "microservices",
+        "mongodb", "rabbitmq", "testing"
+      ],
+      "weight_categories": {
+        "backend": 1.0,
+        "devops": 0.4,
+        "general": 0.3
+      }
+    },
+    {
+      "name": "Full Stack Developer",
+      "description": "Work on both frontend and backend development",
+      "roadmap_url": "https://roadmap.sh/full-stack",
+      "required_skills": [
+        "javascript", "html", "css", "react", "node.js",
+        "sql", "rest api", "git"
+      ],
+      "optional_skills": [
+        "typescript", "docker", "aws", "mongodb", "testing",
+        "ci/cd", "microservices"
+      ],
+      "weight_categories": {
+        "frontend": 0.7,
+        "backend": 0.7,
+        "devops": 0.3,
+        "general": 0.3
+      }
+    },
+    {
+      "name": "DevOps Engineer",
+      "description": "Manage infrastructure, deployments, and automation",
+      "roadmap_url": "https://roadmap.sh/devops",
+      "required_skills": [
+        "linux", "docker", "kubernetes", "ci/cd", "aws",
+        "terraform", "git", "scripting"
+      ],
+      "optional_skills": [
+        "ansible", "jenkins", "prometheus", "grafana",
+        "python", "go", "azure", "gcp"
+      ],
+      "weight_categories": {
+        "devops": 1.0,
+        "backend": 0.4,
+        "general": 0.3
+      }
+    },
+    {
+      "name": "Data Scientist",
+      "description": "Analyze data and build machine learning models",
+      "roadmap_url": "https://roadmap.sh/ai-data-scientist",
+      "required_skills": [
+        "python", "pandas", "numpy", "machine learning",
+        "statistics", "sql", "data analysis"
+      ],
+      "optional_skills": [
+        "tensorflow", "pytorch", "scikit-learn", "deep learning",
+        "r", "spark", "tableau", "jupyter"
+      ],
+      "weight_categories": {
+        "data": 1.0,
+        "backend": 0.3,
+        "general": 0.2
+      }
+    },
+    {
+      "name": "Android Developer",
+      "description": "Build native Android applications",
+      "roadmap_url": "https://roadmap.sh/android",
+      "required_skills": [
+        "kotlin", "java", "android development", "git",
+        "rest api", "sql"
+      ],
+      "optional_skills": [
+        "jetpack compose", "rxjava", "retrofit", "room",
+        "firebase", "material design"
+      ],
+      "weight_categories": {
+        "mobile": 1.0,
+        "backend": 0.3,
+        "general": 0.2
+      }
+    },
+    {
+      "name": "iOS Developer",
+      "description": "Build native iOS applications",
+      "roadmap_url": "https://roadmap.sh/ios",
+      "required_skills": [
+        "swift", "ios development", "xcode", "git",
+        "rest api", "cocoa"
+      ],
+      "optional_skills": [
+        "swiftui", "objective-c", "core data", "combine",
+        "firebase", "uikit"
+      ],
+      "weight_categories": {
+        "mobile": 1.0,
+        "backend": 0.3,
+        "general": 0.2
+      }
+    },
+    {
+      "name": "React Native Developer",
+      "description": "Build cross-platform mobile applications",
+      "roadmap_url": "https://roadmap.sh/react-native",
+      "required_skills": [
+        "react native", "javascript", "react", "mobile ui/ux",
+        "rest api", "git"
+      ],
+      "optional_skills": [
+        "typescript", "redux", "expo", "ios development",
+        "android development", "firebase"
+      ],
+      "weight_categories": {
+        "mobile": 0.8,
+        "frontend": 0.6,
+        "general": 0.2
+      }
+    },
+    {
+      "name": "Software Architect",
+      "description": "Design and oversee software system architecture",
+      "roadmap_url": "https://roadmap.sh/software-architect",
+      "required_skills": [
+        "system design", "microservices", "rest api", "sql",
+        "cloud", "design patterns", "leadership"
+      ],
+      "optional_skills": [
+        "aws", "kubernetes", "event driven", "cqrs",
+        "domain driven design", "scalability"
+      ],
+      "weight_categories": {
+        "backend": 0.7,
+        "devops": 0.5,
+        "general": 0.6
+      }
+    },
+    {
+      "name": "QA Engineer",
+      "description": "Ensure software quality through testing",
+      "roadmap_url": "https://roadmap.sh/qa",
+      "required_skills": [
+        "testing", "test automation", "selenium", "git",
+        "agile", "bug tracking"
+      ],
+      "optional_skills": [
+        "cypress", "jest", "pytest", "ci/cd", "performance testing",
+        "api testing", "javascript", "python"
+      ],
+      "weight_categories": {
+        "general": 0.8,
+        "backend": 0.3,
+        "frontend": 0.3
+      }
+    },
+    {
+      "name": "Blockchain Developer",
+      "description": "Build decentralized applications and smart contracts",
+      "roadmap_url": "https://roadmap.sh/blockchain",
+      "required_skills": [
+        "solidity", "ethereum", "web3", "smart contracts",
+        "blockchain", "cryptography"
+      ],
+      "optional_skills": [
+        "truffle", "hardhat", "react", "node.js", "rust",
+        "hyperledger", "bitcoin"
+      ],
+      "weight_categories": {
+        "backend": 0.6,
+        "frontend": 0.3,
+        "general": 0.3
+      }
+    },
+    {
+      "name": "Game Developer",
+      "description": "Create video games and interactive experiences",
+      "roadmap_url": "https://roadmap.sh/game-developer",
+      "required_skills": [
+        "c++", "c#", "unity", "unreal engine", "game design",
+        "3d graphics"
+      ],
+      "optional_skills": [
+        "physics", "ai", "multiplayer", "shaders", "animation",
+        "blender", "maya"
+      ],
+      "weight_categories": {
+        "general": 0.5,
+        "backend": 0.3
+      }
+    },
+    {
+      "name": "Cyber Security Specialist",
+      "description": "Protect systems and data from security threats",
+      "roadmap_url": "https://roadmap.sh/cyber-security",
+      "required_skills": [
+        "network security", "penetration testing", "linux",
+        "cryptography", "security auditing"
+      ],
+      "optional_skills": [
+        "ethical hacking", "python", "wireshark", "metasploit",
+        "cissp", "ceh", "firewall"
+      ],
+      "weight_categories": {
+        "devops": 0.5,
+        "backend": 0.4,
+        "general": 0.4
+      }
+    }
+  ]
+}

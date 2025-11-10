@@ -1,0 +1,752 @@
+{
+  "Frontend Developer": [
+    {
+      "name": "Meta Front-End Developer Professional Certificate",
+      "provider": "Coursera",
+      "cost": "$49/month",
+      "duration": "7 months",
+      "url": "https://www.coursera.org/professional-certificates/meta-front-end-developer",
+      "skills": ["React", "JavaScript", "HTML", "CSS", "Bootstrap"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "Google UX Design Professional Certificate",
+      "provider": "Coursera",
+      "cost": "$49/month",
+      "duration": "6 months",
+      "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+      "skills": ["UI/UX", "Figma", "Wireframing", "Prototyping"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "Advanced React Developer Certification",
+      "provider": "Meta",
+      "cost": "Free",
+      "duration": "2 months",
+      "url": "https://www.coursera.org/learn/advanced-react",
+      "skills": ["React", "Redux", "Hooks", "Context API"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "Vue.js Complete Guide",
+      "provider": "Udemy",
+      "cost": "$13.99",
+      "duration": "1 month",
+      "url": "https://www.udemy.com/course/vuejs-2-the-complete-guide/",
+      "skills": ["Vue", "Vuex", "Vue Router"],
+      "difficulty": "Intermediate"
+    }
+  ],
+  "Backend Developer": [
+    {
+      "name": "IBM Back-End Development Professional Certificate",
+      "provider": "Coursera",
+      "cost": "$49/month",
+      "duration": "4 months",
+      "url": "https://www.coursera.org/professional-certificates/ibm-backend-development",
+      "skills": ["Python", "Django", "SQL", "REST API", "Docker"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "Node.js Application Development (LFW211)",
+      "provider": "Linux Foundation",
+      "cost": "$300",
+      "duration": "Self-paced",
+      "url": "https://training.linuxfoundation.org/training/nodejs-application-development/",
+      "skills": ["Node.js", "Express", "NPM", "Async Programming"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "Oracle Certified Professional: Java SE Developer",
+      "provider": "Oracle",
+      "cost": "$245",
+      "duration": "3-6 months prep",
+      "url": "https://education.oracle.com/java-se-11-developer/pexam_1Z0-819",
+      "skills": ["Java", "OOP", "Java SE", "Collections"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "MongoDB Certified Developer Associate",
+      "provider": "MongoDB University",
+      "cost": "$150",
+      "duration": "2 months",
+      "url": "https://university.mongodb.com/certification",
+      "skills": ["MongoDB", "NoSQL", "Database Design", "Aggregation"],
+      "difficulty": "Intermediate"
+    }
+  ],
+  "Full Stack Developer": [
+    {
+      "name": "Meta Back-End Developer Professional Certificate",
+      "provider": "Coursera",
+      "cost": "$49/month",
+      "duration": "8 months",
+      "url": "https://www.coursera.org/professional-certificates/meta-back-end-developer",
+      "skills": ["Python", "Django", "MySQL", "REST API", "Version Control"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "IBM Full Stack Software Developer Professional Certificate",
+      "provider": "Coursera",
+      "cost": "$49/month",
+      "duration": "10 months",
+      "url": "https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer",
+      "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Python", "Django", "SQL", "NoSQL"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "The Complete 2024 Web Development Bootcamp",
+      "provider": "Udemy",
+      "cost": "$13.99",
+      "duration": "3 months",
+      "url": "https://www.udemy.com/course/the-complete-web-development-bootcamp/",
+      "skills": ["HTML", "CSS", "JavaScript", "Node.js", "React", "MongoDB", "SQL"],
+      "difficulty": "Beginner"
+    }
+  ],
+  "DevOps Engineer": [
+    {
+      "name": "AWS Certified DevOps Engineer - Professional",
+      "provider": "Amazon Web Services",
+      "cost": "$300",
+      "duration": "3-6 months prep",
+      "url": "https://aws.amazon.com/certification/certified-devops-engineer-professional/",
+      "skills": ["AWS", "CI/CD", "CloudFormation", "Monitoring", "Security"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "Certified Kubernetes Administrator (CKA)",
+      "provider": "Cloud Native Computing Foundation",
+      "cost": "$395",
+      "duration": "2-3 months prep",
+      "url": "https://www.cncf.io/certification/cka/",
+      "skills": ["Kubernetes", "Container Orchestration", "Deployment", "Troubleshooting"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "Docker Certified Associate (DCA)",
+      "provider": "Mirantis",
+      "cost": "$195",
+      "duration": "1-2 months prep",
+      "url": "https://training.mirantis.com/certification/dca-certification-exam/",
+      "skills": ["Docker", "Containers", "Networking", "Swarm"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "HashiCorp Certified: Terraform Associate",
+      "provider": "HashiCorp",
+      "cost": "$70.50",
+      "duration": "1-2 months prep",
+      "url": "https://www.hashicorp.com/certification/terraform-associate",
+      "skills": ["Terraform", "Infrastructure as Code", "Cloud Provisioning"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "Jenkins Engineer Certification",
+      "provider": "CloudBees",
+      "cost": "$150",
+      "duration": "1 month prep",
+      "url": "https://www.cloudbees.com/jenkins/certification",
+      "skills": ["Jenkins", "CI/CD", "Pipeline", "Automation"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "Microsoft Certified: Azure DevOps Engineer Expert",
+      "provider": "Microsoft",
+      "cost": "$165",
+      "duration": "2-3 months prep",
+      "url": "https://learn.microsoft.com/en-us/certifications/devops-engineer/",
+      "skills": ["Azure", "DevOps", "CI/CD", "Agile", "Infrastructure"],
+      "difficulty": "Advanced"
+    }
+  ],
+  "Cloud Engineer": [
+    {
+      "name": "AWS Certified Solutions Architect - Associate",
+      "provider": "Amazon Web Services",
+      "cost": "$150",
+      "duration": "1-3 months prep",
+      "url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+      "skills": ["AWS", "EC2", "S3", "VPC", "IAM", "CloudWatch"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "AWS Certified Solutions Architect - Professional",
+      "provider": "Amazon Web Services",
+      "cost": "$300",
+      "duration": "3-6 months prep",
+      "url": "https://aws.amazon.com/certification/certified-solutions-architect-professional/",
+      "skills": ["AWS", "Architecture", "Migration", "Cost Optimization"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "Microsoft Certified: Azure Administrator Associate",
+      "provider": "Microsoft",
+      "cost": "$165",
+      "duration": "1-2 months prep",
+      "url": "https://learn.microsoft.com/en-us/certifications/azure-administrator/",
+      "skills": ["Azure", "Virtual Machines", "Storage", "Networking"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "Microsoft Certified: Azure Solutions Architect Expert",
+      "provider": "Microsoft",
+      "cost": "$165",
+      "duration": "2-4 months prep",
+      "url": "https://learn.microsoft.com/en-us/certifications/azure-solutions-architect/",
+      "skills": ["Azure", "Architecture", "Security", "Monitoring"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "Google Cloud Certified - Associate Cloud Engineer",
+      "provider": "Google Cloud",
+      "cost": "$125",
+      "duration": "1-2 months prep",
+      "url": "https://cloud.google.com/certification/cloud-engineer",
+      "skills": ["GCP", "Compute Engine", "Cloud Storage", "Kubernetes Engine"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "Google Cloud Certified - Professional Cloud Architect",
+      "provider": "Google Cloud",
+      "cost": "$200",
+      "duration": "3-5 months prep",
+      "url": "https://cloud.google.com/certification/cloud-architect",
+      "skills": ["GCP", "Architecture Design", "Migration", "Security"],
+      "difficulty": "Advanced"
+    }
+  ],
+  "Data Scientist": [
+    {
+      "name": "IBM Data Science Professional Certificate",
+      "provider": "Coursera",
+      "cost": "$49/month",
+      "duration": "10 months",
+      "url": "https://www.coursera.org/professional-certificates/ibm-data-science",
+      "skills": ["Python", "SQL", "Machine Learning", "Data Visualization", "Jupyter"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "Google Data Analytics Professional Certificate",
+      "provider": "Coursera",
+      "cost": "$49/month",
+      "duration": "6 months",
+      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "skills": ["SQL", "R", "Tableau", "Data Visualization", "Statistics"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "TensorFlow Developer Certificate",
+      "provider": "TensorFlow",
+      "cost": "$100",
+      "duration": "2-3 months prep",
+      "url": "https://www.tensorflow.org/certificate",
+      "skills": ["TensorFlow", "Deep Learning", "Neural Networks", "Computer Vision"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "Microsoft Certified: Azure Data Scientist Associate",
+      "provider": "Microsoft",
+      "cost": "$165",
+      "duration": "2-3 months prep",
+      "url": "https://learn.microsoft.com/en-us/certifications/azure-data-scientist/",
+      "skills": ["Azure ML", "Python", "Machine Learning", "Data Science"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "AWS Certified Machine Learning - Specialty",
+      "provider": "Amazon Web Services",
+      "cost": "$300",
+      "duration": "3-4 months prep",
+      "url": "https://aws.amazon.com/certification/certified-machine-learning-specialty/",
+      "skills": ["AWS", "Machine Learning", "SageMaker", "Deep Learning"],
+      "difficulty": "Advanced"
+    }
+  ],
+  "Data Engineer": [
+    {
+      "name": "Google Cloud Certified - Professional Data Engineer",
+      "provider": "Google Cloud",
+      "cost": "$200",
+      "duration": "3-4 months prep",
+      "url": "https://cloud.google.com/certification/data-engineer",
+      "skills": ["GCP", "BigQuery", "Dataflow", "Data Pipelines"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "AWS Certified Data Analytics - Specialty",
+      "provider": "Amazon Web Services",
+      "cost": "$300",
+      "duration": "2-3 months prep",
+      "url": "https://aws.amazon.com/certification/certified-data-analytics-specialty/",
+      "skills": ["AWS", "Redshift", "EMR", "Kinesis", "Data Lakes"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "Microsoft Certified: Azure Data Engineer Associate",
+      "provider": "Microsoft",
+      "cost": "$165",
+      "duration": "2-3 months prep",
+      "url": "https://learn.microsoft.com/en-us/certifications/azure-data-engineer/",
+      "skills": ["Azure", "Data Factory", "Databricks", "Synapse Analytics"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "Databricks Certified Data Engineer Professional",
+      "provider": "Databricks",
+      "cost": "$200",
+      "duration": "2-3 months prep",
+      "url": "https://www.databricks.com/learn/certification/data-engineer-professional",
+      "skills": ["Spark", "Delta Lake", "Data Engineering", "ETL"],
+      "difficulty": "Advanced"
+    }
+  ],
+  "Data Analyst": [
+    {
+      "name": "Google Data Analytics Professional Certificate",
+      "provider": "Coursera",
+      "cost": "$49/month",
+      "duration": "6 months",
+      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "skills": ["SQL", "R", "Tableau", "Data Visualization", "Statistics"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "Microsoft Certified: Power BI Data Analyst Associate",
+      "provider": "Microsoft",
+      "cost": "$165",
+      "duration": "1-2 months prep",
+      "url": "https://learn.microsoft.com/en-us/certifications/power-bi-data-analyst-associate/",
+      "skills": ["Power BI", "DAX", "Data Modeling", "Visualization"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "Tableau Desktop Specialist",
+      "provider": "Tableau",
+      "cost": "$100",
+      "duration": "1 month prep",
+      "url": "https://www.tableau.com/learn/certification/desktop-specialist",
+      "skills": ["Tableau", "Data Visualization", "Analytics"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "Tableau Certified Data Analyst",
+      "provider": "Tableau",
+      "cost": "$250",
+      "duration": "2-3 months prep",
+      "url": "https://www.tableau.com/learn/certification/certified-data-analyst",
+      "skills": ["Tableau", "Advanced Analytics", "Statistical Analysis"],
+      "difficulty": "Advanced"
+    }
+  ],
+  "Machine Learning Engineer": [
+    {
+      "name": "Machine Learning Engineering for Production (MLOps) Specialization",
+      "provider": "DeepLearning.AI",
+      "cost": "$49/month",
+      "duration": "4 months",
+      "url": "https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops",
+      "skills": ["MLOps", "TensorFlow", "Deployment", "Monitoring"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "AWS Certified Machine Learning - Specialty",
+      "provider": "Amazon Web Services",
+      "cost": "$300",
+      "duration": "3-4 months prep",
+      "url": "https://aws.amazon.com/certification/certified-machine-learning-specialty/",
+      "skills": ["AWS", "Machine Learning", "SageMaker", "Deep Learning"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "Google Cloud Certified - Professional ML Engineer",
+      "provider": "Google Cloud",
+      "cost": "$200",
+      "duration": "3-4 months prep",
+      "url": "https://cloud.google.com/certification/machine-learning-engineer",
+      "skills": ["GCP", "TensorFlow", "ML Pipelines", "AutoML"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "TensorFlow Developer Certificate",
+      "provider": "TensorFlow",
+      "cost": "$100",
+      "duration": "2-3 months prep",
+      "url": "https://www.tensorflow.org/certificate",
+      "skills": ["TensorFlow", "Deep Learning", "Neural Networks", "Computer Vision"],
+      "difficulty": "Intermediate"
+    }
+  ],
+  "Mobile Developer": [
+    {
+      "name": "Meta iOS Developer Professional Certificate",
+      "provider": "Coursera",
+      "cost": "$49/month",
+      "duration": "8 months",
+      "url": "https://www.coursera.org/professional-certificates/meta-ios-developer",
+      "skills": ["Swift", "iOS", "Xcode", "UIKit", "SwiftUI"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "Meta Android Developer Professional Certificate",
+      "provider": "Coursera",
+      "cost": "$49/month",
+      "duration": "6 months",
+      "url": "https://www.coursera.org/professional-certificates/meta-android-developer",
+      "skills": ["Kotlin", "Android", "Android Studio", "Jetpack"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "Associate Android Developer Certification",
+      "provider": "Google",
+      "cost": "$149",
+      "duration": "2-3 months prep",
+      "url": "https://developers.google.com/certification/associate-android-developer",
+      "skills": ["Android", "Kotlin", "Material Design", "Architecture"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "Flutter & Dart - The Complete Guide",
+      "provider": "Udemy",
+      "cost": "$13.99",
+      "duration": "2 months",
+      "url": "https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/",
+      "skills": ["Flutter", "Dart", "Cross-platform", "Mobile UI"],
+      "difficulty": "Beginner"
+    }
+  ],
+  "Cybersecurity Specialist": [
+    {
+      "name": "CompTIA Security+",
+      "provider": "CompTIA",
+      "cost": "$404",
+      "duration": "1-3 months prep",
+      "url": "https://www.comptia.org/certifications/security",
+      "skills": ["Network Security", "Cryptography", "Risk Management", "Compliance"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "Certified Ethical Hacker (CEH)",
+      "provider": "EC-Council",
+      "cost": "$1,199",
+      "duration": "2-3 months prep",
+      "url": "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/",
+      "skills": ["Penetration Testing", "Network Security", "Vulnerability Assessment"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "Certified Information Systems Security Professional (CISSP)",
+      "provider": "ISC2",
+      "cost": "$749",
+      "duration": "3-6 months prep",
+      "url": "https://www.isc2.org/Certifications/CISSP",
+      "skills": ["Security Architecture", "Risk Management", "Cryptography", "Access Control"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "Offensive Security Certified Professional (OSCP)",
+      "provider": "Offensive Security",
+      "cost": "$1,649",
+      "duration": "3-6 months prep",
+      "url": "https://www.offensive-security.com/pwk-oscp/",
+      "skills": ["Penetration Testing", "Exploitation", "Linux", "Windows Security"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "AWS Certified Security - Specialty",
+      "provider": "Amazon Web Services",
+      "cost": "$300",
+      "duration": "2-3 months prep",
+      "url": "https://aws.amazon.com/certification/certified-security-specialty/",
+      "skills": ["AWS Security", "IAM", "Encryption", "Compliance"],
+      "difficulty": "Advanced"
+    }
+  ],
+  "Database Administrator": [
+    {
+      "name": "Oracle Database SQL Certified Associate",
+      "provider": "Oracle",
+      "cost": "$245",
+      "duration": "1-2 months prep",
+      "url": "https://education.oracle.com/oracle-database-sql-certified-associate/trackp_457",
+      "skills": ["SQL", "Oracle", "Database Design", "Queries"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "Microsoft Certified: Azure Database Administrator Associate",
+      "provider": "Microsoft",
+      "cost": "$165",
+      "duration": "2-3 months prep",
+      "url": "https://learn.microsoft.com/en-us/certifications/azure-database-administrator-associate/",
+      "skills": ["Azure SQL", "Database Management", "Backup", "Security"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "MongoDB Certified DBA Associate",
+      "provider": "MongoDB University",
+      "cost": "$150",
+      "duration": "2 months prep",
+      "url": "https://university.mongodb.com/certification",
+      "skills": ["MongoDB", "Performance Tuning", "Backup", "Replication"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "PostgreSQL 14 Administrator",
+      "provider": "EnterpriseDB",
+      "cost": "$195",
+      "duration": "1-2 months prep",
+      "url": "https://www.enterprisedb.com/training/postgres-certification",
+      "skills": ["PostgreSQL", "Administration", "Performance", "High Availability"],
+      "difficulty": "Intermediate"
+    }
+  ],
+  "UI/UX Designer": [
+    {
+      "name": "Google UX Design Professional Certificate",
+      "provider": "Coursera",
+      "cost": "$49/month",
+      "duration": "6 months",
+      "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+      "skills": ["UI/UX", "Figma", "Wireframing", "Prototyping", "User Research"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "Adobe Certified Professional in UX Design",
+      "provider": "Adobe",
+      "cost": "$180",
+      "duration": "1-2 months prep",
+      "url": "https://www.adobe.com/training/certification/acp-xd.html",
+      "skills": ["Adobe XD", "Prototyping", "UI Design", "Interaction Design"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "Certified User Experience Professional (CUXP)",
+      "provider": "UXQB",
+      "cost": "$275",
+      "duration": "2-3 months prep",
+      "url": "https://uxqb.org/public/",
+      "skills": ["UX Design", "User Research", "Usability Testing", "Information Architecture"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "Interaction Design Foundation UX Certification",
+      "provider": "IxDF",
+      "cost": "$14.50/month",
+      "duration": "6-12 months",
+      "url": "https://www.interaction-design.org/",
+      "skills": ["UX", "Interaction Design", "Visual Design", "Psychology"],
+      "difficulty": "Intermediate"
+    }
+  ],
+  "Product Manager": [
+    {
+      "name": "Google Project Management Professional Certificate",
+      "provider": "Coursera",
+      "cost": "$49/month",
+      "duration": "6 months",
+      "url": "https://www.coursera.org/professional-certificates/google-project-management",
+      "skills": ["Project Management", "Agile", "Scrum", "Stakeholder Management"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "Certified Scrum Product Owner (CSPO)",
+      "provider": "Scrum Alliance",
+      "cost": "$1,000-1,500",
+      "duration": "2-day course",
+      "url": "https://www.scrumalliance.org/get-certified/product-owner-track/certified-scrum-product-owner",
+      "skills": ["Scrum", "Product Backlog", "Agile", "Stakeholder Management"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "Professional Scrum Product Owner (PSPO)",
+      "provider": "Scrum.org",
+      "cost": "$200",
+      "duration": "1 month prep",
+      "url": "https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification",
+      "skills": ["Scrum", "Product Management", "Value Maximization"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "Pragmatic Institute Certified Product Manager",
+      "provider": "Pragmatic Institute",
+      "cost": "$3,295",
+      "duration": "2-day course",
+      "url": "https://www.pragmaticinstitute.com/product/courses/foundations/",
+      "skills": ["Product Strategy", "Market Analysis", "Roadmapping", "Pricing"],
+      "difficulty": "Advanced"
+    }
+  ],
+  "QA Engineer": [
+    {
+      "name": "ISTQB Certified Tester Foundation Level",
+      "provider": "ISTQB",
+      "cost": "$250",
+      "duration": "1-2 months prep",
+      "url": "https://www.istqb.org/certifications/certified-tester-foundation-level",
+      "skills": ["Test Planning", "Test Design", "Test Execution", "Defect Management"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "Selenium WebDriver with Java",
+      "provider": "Udemy",
+      "cost": "$13.99",
+      "duration": "1 month",
+      "url": "https://www.udemy.com/course/selenium-webdriver-with-java-testng-and-log4j/",
+      "skills": ["Selenium", "Test Automation", "Java", "WebDriver"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "ISTQB Test Automation Engineer",
+      "provider": "ISTQB",
+      "cost": "$250",
+      "duration": "2-3 months prep",
+      "url": "https://www.istqb.org/certifications/test-automation-engineer",
+      "skills": ["Test Automation", "Framework Design", "CI/CD Integration"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "Certified Agile Tester (CAT)",
+      "provider": "ISTQB",
+      "cost": "$250",
+      "duration": "1-2 months prep",
+      "url": "https://www.istqb.org/certifications/agile-tester",
+      "skills": ["Agile Testing", "Test-Driven Development", "Behavior-Driven Development"],
+      "difficulty": "Intermediate"
+    }
+  ],
+  "Blockchain Developer": [
+    {
+      "name": "Certified Blockchain Developer - Ethereum",
+      "provider": "Blockchain Council",
+      "cost": "$249",
+      "duration": "2 months",
+      "url": "https://www.blockchain-council.org/certifications/certified-blockchain-developer-expert/",
+      "skills": ["Ethereum", "Solidity", "Smart Contracts", "Web3"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "Blockchain Specialization",
+      "provider": "University at Buffalo",
+      "cost": "$49/month",
+      "duration": "4 months",
+      "url": "https://www.coursera.org/specializations/blockchain",
+      "skills": ["Blockchain", "Smart Contracts", "Decentralized Applications"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "Certified Blockchain Solutions Architect",
+      "provider": "Blockchain Council",
+      "cost": "$299",
+      "duration": "3 months",
+      "url": "https://www.blockchain-council.org/certifications/certified-blockchain-solution-architect/",
+      "skills": ["Blockchain Architecture", "Hyperledger", "Enterprise Blockchain"],
+      "difficulty": "Advanced"
+    }
+  ],
+  "AI Engineer": [
+    {
+      "name": "AI For Everyone",
+      "provider": "DeepLearning.AI",
+      "cost": "Free",
+      "duration": "1 month",
+      "url": "https://www.coursera.org/learn/ai-for-everyone",
+      "skills": ["AI Concepts", "Machine Learning", "Data Science"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "Deep Learning Specialization",
+      "provider": "DeepLearning.AI",
+      "cost": "$49/month",
+      "duration": "5 months",
+      "url": "https://www.coursera.org/specializations/deep-learning",
+      "skills": ["Neural Networks", "Deep Learning", "TensorFlow", "Computer Vision", "NLP"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "Natural Language Processing Specialization",
+      "provider": "DeepLearning.AI",
+      "cost": "$49/month",
+      "duration": "4 months",
+      "url": "https://www.coursera.org/specializations/natural-language-processing",
+      "skills": ["NLP", "Transformers", "Attention Models", "Sequence Models"],
+      "difficulty": "Advanced"
+    },
+    {
+      "name": "AWS Certified Machine Learning - Specialty",
+      "provider": "Amazon Web Services",
+      "cost": "$300",
+      "duration": "3-4 months prep",
+      "url": "https://aws.amazon.com/certification/certified-machine-learning-specialty/",
+      "skills": ["AWS", "Machine Learning", "SageMaker", "Deep Learning"],
+      "difficulty": "Advanced"
+    }
+  ],
+  "Network Engineer": [
+    {
+      "name": "Cisco Certified Network Associate (CCNA)",
+      "provider": "Cisco",
+      "cost": "$300",
+      "duration": "2-4 months prep",
+      "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html",
+      "skills": ["Networking", "Routing", "Switching", "Security", "IP Services"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "CompTIA Network+",
+      "provider": "CompTIA",
+      "cost": "$348",
+      "duration": "1-2 months prep",
+      "url": "https://www.comptia.org/certifications/network",
+      "skills": ["Network Infrastructure", "Network Operations", "Network Security"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "Cisco Certified Network Professional (CCNP) Enterprise",
+      "provider": "Cisco",
+      "cost": "$400-800",
+      "duration": "4-6 months prep",
+      "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-enterprise.html",
+      "skills": ["Advanced Routing", "Enterprise Networks", "SD-WAN", "Automation"],
+      "difficulty": "Advanced"
+    }
+  ],
+  "Systems Administrator": [
+    {
+      "name": "CompTIA A+",
+      "provider": "CompTIA",
+      "cost": "$246 per exam",
+      "duration": "2-3 months prep",
+      "url": "https://www.comptia.org/certifications/a",
+      "skills": ["Hardware", "Operating Systems", "Networking", "Troubleshooting"],
+      "difficulty": "Beginner"
+    },
+    {
+      "name": "Red Hat Certified System Administrator (RHCSA)",
+      "provider": "Red Hat",
+      "cost": "$400",
+      "duration": "2-3 months prep",
+      "url": "https://www.redhat.com/en/services/certification/rhcsa",
+      "skills": ["Linux", "System Administration", "Shell Scripting", "Security"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "Microsoft Certified: Windows Server Hybrid Administrator Associate",
+      "provider": "Microsoft",
+      "cost": "$165",
+      "duration": "2-3 months prep",
+      "url": "https://learn.microsoft.com/en-us/certifications/windows-server-hybrid-administrator/",
+      "skills": ["Windows Server", "Active Directory", "Hyper-V", "Storage"],
+      "difficulty": "Intermediate"
+    },
+    {
+      "name": "Linux Professional Institute Certification (LPIC-1)",
+      "provider": "LPI",
+      "cost": "$200 per exam",
+      "duration": "2-3 months prep",
+      "url": "https://www.lpi.org/our-certifications/lpic-1-overview",
+      "skills": ["Linux", "System Administration", "Command Line", "File Systems"],
+      "difficulty": "Beginner"
+    }
+  ]
+}
+

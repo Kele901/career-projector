@@ -1,0 +1,31 @@
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Database
+sqlalchemy>=2.0.0
+
+# Authentication & Security
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# CV Parsing
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0
+python-docx>=1.1.0
+Pillow>=10.0.0
+
+# AI Integration (Optional)
+openai>=1.0.0
+
+# Utilities
+aiofiles>=23.0.0
+
+# PDF Generation
+reportlab>=4.0.4
+matplotlib>=3.8.0
+

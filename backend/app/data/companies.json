@@ -1,0 +1,225 @@
+{
+  "known_companies": {
+    "faang": {
+      "google": {
+        "size": "enterprise",
+        "industry": "tech",
+        "tier": "faang",
+        "aliases": ["alphabet", "google inc", "google llc"]
+      },
+      "meta": {
+        "size": "enterprise",
+        "industry": "tech",
+        "tier": "faang",
+        "aliases": ["facebook", "meta platforms", "fb"]
+      },
+      "amazon": {
+        "size": "enterprise",
+        "industry": "tech",
+        "tier": "faang",
+        "aliases": ["amazon web services", "aws", "amazon.com"]
+      },
+      "apple": {
+        "size": "enterprise",
+        "industry": "tech",
+        "tier": "faang",
+        "aliases": ["apple inc", "apple computer"]
+      },
+      "netflix": {
+        "size": "enterprise",
+        "industry": "tech",
+        "tier": "faang",
+        "aliases": ["netflix inc"]
+      }
+    },
+    "tech_giants": {
+      "microsoft": {
+        "size": "enterprise",
+        "industry": "tech",
+        "tier": "tech_giant",
+        "aliases": ["msft", "ms"]
+      },
+      "ibm": {
+        "size": "enterprise",
+        "industry": "tech",
+        "tier": "tech_giant",
+        "aliases": ["international business machines"]
+      },
+      "oracle": {
+        "size": "enterprise",
+        "industry": "tech",
+        "tier": "tech_giant",
+        "aliases": ["oracle corporation"]
+      },
+      "salesforce": {
+        "size": "enterprise",
+        "industry": "tech",
+        "tier": "tech_giant",
+        "aliases": ["salesforce.com"]
+      },
+      "adobe": {
+        "size": "enterprise",
+        "industry": "tech",
+        "tier": "tech_giant",
+        "aliases": ["adobe systems"]
+      },
+      "intel": {
+        "size": "enterprise",
+        "industry": "tech",
+        "tier": "tech_giant",
+        "aliases": ["intel corporation"]
+      },
+      "nvidia": {
+        "size": "enterprise",
+        "industry": "tech",
+        "tier": "tech_giant",
+        "aliases": ["nvidia corporation"]
+      },
+      "cisco": {
+        "size": "enterprise",
+        "industry": "tech",
+        "tier": "tech_giant",
+        "aliases": ["cisco systems"]
+      }
+    },
+    "unicorns": {
+      "stripe": {
+        "size": "large",
+        "industry": "tech",
+        "tier": "unicorn",
+        "aliases": ["stripe inc"]
+      },
+      "airbnb": {
+        "size": "large",
+        "industry": "tech",
+        "tier": "unicorn",
+        "aliases": ["airbnb inc"]
+      },
+      "uber": {
+        "size": "large",
+        "industry": "tech",
+        "tier": "unicorn",
+        "aliases": ["uber technologies"]
+      },
+      "lyft": {
+        "size": "large",
+        "industry": "tech",
+        "tier": "unicorn",
+        "aliases": ["lyft inc"]
+      },
+      "spotify": {
+        "size": "large",
+        "industry": "tech",
+        "tier": "unicorn",
+        "aliases": ["spotify technology"]
+      },
+      "dropbox": {
+        "size": "large",
+        "industry": "tech",
+        "tier": "unicorn",
+        "aliases": ["dropbox inc"]
+      }
+    }
+  },
+  "size_keywords": {
+    "enterprise": [
+      "corporation",
+      "corp",
+      "international",
+      "global",
+      "worldwide",
+      "inc.",
+      "limited",
+      "ltd",
+      "enterprise",
+      "fortune 500",
+      "fortune 1000",
+      "multinational"
+    ],
+    "startup": [
+      "startup",
+      "start-up",
+      "seed",
+      "series a",
+      "series b",
+      "series c",
+      "venture",
+      "incubator",
+      "accelerator"
+    ]
+  },
+  "industry_keywords": {
+    "tech": [
+      "software",
+      "technology",
+      "tech",
+      "saas",
+      "cloud",
+      "data",
+      "ai",
+      "artificial intelligence",
+      "ml",
+      "machine learning",
+      "mobile",
+      "web",
+      "internet",
+      "digital",
+      "computing",
+      "cybersecurity",
+      "fintech",
+      "edtech",
+      "healthtech",
+      "platform"
+    ],
+    "finance": [
+      "bank",
+      "banking",
+      "financial",
+      "finance",
+      "investment",
+      "trading",
+      "capital",
+      "asset management",
+      "hedge fund",
+      "private equity",
+      "venture capital",
+      "insurance"
+    ],
+    "healthcare": [
+      "health",
+      "healthcare",
+      "medical",
+      "hospital",
+      "pharma",
+      "pharmaceutical",
+      "clinical",
+      "biotech",
+      "biotechnology",
+      "medical device"
+    ],
+    "consulting": [
+      "consulting",
+      "consultant",
+      "advisory",
+      "services",
+      "management consulting",
+      "strategy"
+    ],
+    "ecommerce": [
+      "ecommerce",
+      "e-commerce",
+      "retail",
+      "marketplace",
+      "online shopping"
+    ],
+    "media": [
+      "media",
+      "entertainment",
+      "publishing",
+      "broadcasting",
+      "streaming",
+      "content"
+    ]
+  }
+}
+
