@@ -35,7 +35,8 @@ const SharedReport: React.FC = () => {
   const fetchSharedReport = async () => {
     try {
       setLoading(true);
-      const response = await axios.get(`http://localhost:8000/api/v1/export/shared/${shareCode}`);
+      const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/v1';
+      const response = await axios.get(`${apiBaseUrl}/export/shared/${shareCode}`);
       setReportData(response.data);
     } catch (err: any) {
       if (err.response?.status === 404) {

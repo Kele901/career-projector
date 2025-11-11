@@ -45,9 +45,10 @@ const ProgressDashboard: React.FC = () => {
   const fetchProgress = async () => {
     try {
       setLoading(true);
+      const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/v1';
       const [timelineRes, skillsRes] = await Promise.all([
-        axios.get(`http://localhost:8000/api/v1/progress/${cvId}/timeline`),
-        axios.get(`http://localhost:8000/api/v1/progress/${cvId}/learned-skills`)
+        axios.get(`${apiBaseUrl}/progress/${cvId}/timeline`),
+        axios.get(`${apiBaseUrl}/progress/${cvId}/learned-skills`)
       ]);
       setTimeline(timelineRes.data);
       setLearnedSkills(skillsRes.data);
@@ -60,7 +61,8 @@ const ProgressDashboard: React.FC = () => {
 
   const captureSnapshot = async () => {
     try {
-      await axios.post(`http://localhost:8000/api/v1/progress/${cvId}/snapshot`);
+      const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/v1';
+      await axios.post(`${apiBaseUrl}/progress/${cvId}/snapshot`);
       fetchProgress();
       alert('Progress snapshot captured successfully!');
     } catch (err: any) {
@@ -75,7 +77,8 @@ const ProgressDashboard: React.FC = () => {
     }
 
     try {
-      await axios.post(`http://localhost:8000/api/v1/progress/${cvId}/learned-skills`, newSkill);
+      const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/v1';
+      await axios.post(`${apiBaseUrl}/progress/${cvId}/learned-skills`, newSkill);
       setNewSkill({ skill_name: '', proficiency_level: 'beginner', status: 'learning' });
       setShowAddSkill(false);
       fetchProgress();
@@ -89,7 +92,8 @@ const ProgressDashboard: React.FC = () => {
       const skill = learnedSkills.find(s => s.id === skillId);
       if (!skill) return;
 
-      await axios.put(`http://localhost:8000/api/v1/progress/${cvId}/learned-skills/${skillId}`, {
+      const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/v1';
+      await axios.put(`${apiBaseUrl}/progress/${cvId}/learned-skills/${skillId}`, {
         skill_name: skill.skill_name,
         proficiency_level: skill.proficiency_level,
         status
@@ -104,7 +108,8 @@ const ProgressDashboard: React.FC = () => {
     if (!confirm('Are you sure you want to delete this skill?')) return;
 
     try {
-      await axios.delete(`http://localhost:8000/api/v1/progress/${cvId}/learned-skills/${skillId}`);
+      const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/v1';
+      await axios.delete(`${apiBaseUrl}/progress/${cvId}/learned-skills/${skillId}`);
       fetchProgress();
     } catch (err: any) {
       alert('Failed to delete skill: ' + (err.response?.data?.detail || err.message));

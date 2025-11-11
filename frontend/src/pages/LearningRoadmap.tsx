@@ -75,8 +75,9 @@ const LearningRoadmap: React.FC = () => {
     try {
       setLoading(true);
       setError('');
+      const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/v1';
       const response = await axios.get(
-        `http://localhost:8000/api/v1/roadmap/${cvId}/pathway/${encodeURIComponent(pathway)}`
+        `${apiBaseUrl}/roadmap/${cvId}/pathway/${encodeURIComponent(pathway)}`
       );
       setRoadmap(response.data);
     } catch (err: any) {

@@ -36,7 +36,8 @@ const Analytics: React.FC = () => {
   const fetchAnalytics = async () => {
     try {
       setLoading(true);
-      const response = await axios.get(`http://localhost:8000/api/v1/progress/${cvId}/analytics`);
+      const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/v1';
+      const response = await axios.get(`${apiBaseUrl}/progress/${cvId}/analytics`);
       setAnalytics(response.data);
     } catch (err: any) {
       setError(err.response?.data?.detail || 'Failed to load analytics data');
