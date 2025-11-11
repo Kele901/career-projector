@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { TrendingUp, Award, Target, BookOpen, ExternalLink, Clock, Calendar, Lock } from 'lucide-react';
+import { TrendingUp, Award, Target, Clock, Calendar, Lock } from 'lucide-react';
 import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import axios from 'axios';
 
@@ -97,8 +97,6 @@ const SharedReport: React.FC = () => {
     { name: 'Good (50-69%)', value: scoreRanges.good, color: '#f59e0b' },
     { name: 'Fair (<50%)', value: scoreRanges.fair, color: '#ef4444' },
   ].filter(item => item.value > 0);
-
-  const COLORS = ['#6366f1', '#8b5cf6', '#ec4899', '#f59e0b', '#10b981', '#3b82f6', '#ef4444', '#06b6d4'];
 
   const daysUntilExpiry = Math.ceil(
     (new Date(reportData.expires_at).getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24)

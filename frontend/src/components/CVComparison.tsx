@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, ArrowRight, TrendingUp, TrendingDown, Minus, Plus, X } from 'lucide-react';
+import { ArrowRight, TrendingUp, TrendingDown, Minus, Plus, X } from 'lucide-react';
 import { cvStorage, CVSnapshot } from '../utils/localStorage';
 
 interface CVComparisonProps {

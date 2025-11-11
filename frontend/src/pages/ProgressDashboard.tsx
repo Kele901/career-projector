@@ -28,7 +28,7 @@ const ProgressDashboard: React.FC = () => {
   const [timeline, setTimeline] = useState<TimelineEntry[]>([]);
   const [learnedSkills, setLearnedSkills] = useState<LearnedSkill[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState('');
+  const [, setError] = useState('');
   const [showAddSkill, setShowAddSkill] = useState(false);
   const [newSkill, setNewSkill] = useState({
     skill_name: '',
