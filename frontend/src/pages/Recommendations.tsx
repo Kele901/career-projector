@@ -205,8 +205,9 @@ const Recommendations: React.FC = () => {
       setExporting(true);
       console.log('Starting PDF export for CV ID:', cvId);
       
+      const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/v1';
       const response = await axios.post(
-        `http://localhost:8000/api/v1/export/${cvId}/pdf`,
+        `${apiBaseUrl}/export/${cvId}/pdf`,
         {},
         { 
           responseType: 'blob',
@@ -263,7 +264,8 @@ const Recommendations: React.FC = () => {
     
     try {
       setExporting(true);
-      const response = await axios.post(`http://localhost:8000/api/v1/export/${cvId}/share`);
+      const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/v1';
+      const response = await axios.post(`${apiBaseUrl}/export/${cvId}/share`);
       setShareLink(`${window.location.origin}/shared/${response.data.share_code}`);
       setShowShareModal(true);
     } catch (err: any) {
@@ -1472,7 +1474,7 @@ const Recommendations: React.FC = () => {
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex-1">
                     <div className="flex items-center gap-3 mb-2 flex-wrap">
-                      <h3 className="text-xl font-bold text-gray-900">{rec.pathway}</h3>
+                      <h3 className="text-xl font-bold text-gray-900">{rec.pathway?.toString().replace(/\s*000\s*$/, '') || rec.pathway}</h3>
                       {rec.is_ai_enhanced && (
                         <span className="flex items-center gap-1 bg-purple-100 text-purple-700 px-2 py-1 rounded-full text-xs font-medium">
                           <Sparkles className="w-3 h-3" />
