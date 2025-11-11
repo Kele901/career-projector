@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+backend/uploads/
+backend/test_*.py
+backend/debug_*.py
+backend/find_*.py
+backend/migrate_*.py
+backend/.env
+backend/env.example
+
+# Frontend
+frontend/
+node_modules/
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+*.md
+!backend/README.md
+
